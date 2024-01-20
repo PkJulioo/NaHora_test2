@@ -1,0 +1,197 @@
+:root {
+  --gradient-header: linear-gradient(
+    90deg,
+    rgba(3, 2, 28, 1) 0%,
+    rgba(14, 14, 133, 1) 38%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  --gradient-cadastro: linear-gradient(
+    90deg,
+    rgba(200, 29, 29, 1) 0%,
+    rgba(125, 63, 190, 1) 46%,
+    rgba(12, 137, 161, 1) 100%
+  );
+  --white: #fff;
+  --font-model-1: "Black Ops One";
+  --font-model-2: "Lucida Sans Unicode";
+}
+
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background: var(--gradient-header);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.box_logo {
+  min-width: 13%;
+  height: 100%;
+}
+
+.logo {
+  color: var(--white);
+  font-weight: 600;
+  animation: slideRight 1s ease forwards;
+  font: normal 2rem var(--font-model-1), cursive;
+  margin: 0;
+  text-decoration: none;
+}
+
+.hora {
+  color: #e9c917;
+  font: normal 2rem var(--font-model-1), cursive;
+  margin: 0;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.ct-account {
+  min-width: 13%;
+  height: 100%;
+  padding: 5px;
+}
+
+.login {
+  padding: 10px 7px 10px 7px;
+  border-radius: 5px;
+  display: inline-block;
+  font-family: var(--font-model-2);
+  color: #000000;
+  text-decoration: none;
+}
+
+.cadastro {
+  padding: 10px 7px 10px 7px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: var(--font-model-2);
+  background: var(--gradient-cadastro);
+  display: inline-block;
+  color: var(--white);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.cadastro:hover {
+  color: rgb(255, 197, 6);
+}
+
+/*Footer*/
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #0d1e4d;
+  color: #fff;
+  font-size: 4rem;
+  font-family: Georgia;
+  display: flex;
+}
+
+.footer-left {
+  width: 30%;
+  height: 100%;
+  cursor: auto;
+}
+
+.footer-right {
+  width: 70vw;
+  height: 200px;
+  cursor: auto;
+}
+
+.footer-network {
+  width: 204px;
+  height: 60px;
+  cursor: auto;
+}
+
+.sociais-midias {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #000000d1;
+  margin: 0px 5px;
+  font-size: 0.8em;
+}
+
+.sociais-midias:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.fa-instagram {
+  font-weight: 900;
+  font-size: 1.1em;
+  color: #ff21b1;
+}
+.fa-youtube {
+  color: rgb(208, 51, 51);
+  font-size: 1em;
+}
+.fa-facebook-f {
+  color: rgb(20, 131, 195);
+  font-size: 0.9em;
+}
+.fa-tiktok {
+  color: rgb(255, 255, 255);
+  font-size: 0.9em;
+}
+
+.footer-termos {
+  color: #fff;
+  font-size: 0.4em;
+  margin-left: 7px;
+  margin-top: 0px;
+  cursor: auto;
+}
+
+.footer-logo .logo {
+  font-size: 0.6em;
+  letter-spacing: 1px;
+  margin-right: 48px;
+}
+
+.footer-logo .hora {
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+.bx-footer-right {
+  width: auto;
+  height: auto;
+}
+
+.mini-footer {
+  height: 160px;
+  width: 355px;
+  margin: 0 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-footer {
+  color: #b1a9a9;
+  font-size: 0.6em;
+  font-family: "Lucida Sans Unicode";
+  margin-top: 5px;
+}
+
+.info-footer:hover {
+  text-decoration: underline;
+  color: #f6e8e8;
+  transform: translateY(-3px);
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.bx-footer-left {
+  flex-direction: column;
+}
